@@ -1,0 +1,181 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assn-5 | Set-B | Que 1</title>
+    <style>
+        
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&family=Roboto+Condensed:wght@700&display=swap');
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .card-container {
+            max-width: 500px;
+            min-width: 400px;
+            text-align: center;
+            margin-top: 200px;
+            margin-left: auto;
+            margin-right: auto;
+            background-image: linear-gradient(#466881, #17304f);
+            border-radius: 10px;
+            color: #fff;
+            /* height: 200px; */
+        }
+
+        .heading {
+            padding-left: 120px;
+            padding-top: 8px;
+        }
+
+        .heading>h1 {
+            font-size: 50px;
+            font-family: "Roboto Condensed", sans-serif;
+            margin: 10px 5px 5px 5px;
+        }
+
+        .emvImg {
+            width: 80px;
+            height: auto;
+            margin-left: 40px;
+        }
+
+        .evm-container {
+            text-align: left;
+        }
+
+        .details-wrapper {
+            text-align: center;
+            letter-spacing: 5px;
+            font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+            color: #7d7f81;
+            margin: 8px 5px;
+        }
+        
+        .validity-wrapper {
+            text-transform: uppercase;
+            color: #5c5f61;
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            text-align: right;
+            margin: 5px 200px 5px 200px;
+        }
+
+        .validity-wrapper>* {
+            margin: auto 10px;
+            letter-spacing: 2px;
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        .validity-wrapper :first-child {
+            font-size: 15px;
+        }
+
+        .validity-wrapper :last-child {
+            font-size: 25px;
+        }
+
+        #cardNumber {
+            word-spacing: 1px;
+            font-family: 'Montserrat', sans-serif;
+            /* font-size: 2px; */
+        }
+
+        .card-holder-wrapper {
+            text-align: left;
+            padding-left: 45px;
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        .card-holder-wrapper :first-child {
+            color: #5c5f61;
+            text-transform: uppercase;
+            font-size: 20px;
+            letter-spacing: 3px;
+            padding: 5px 0 15px 0;
+            margin-right: 25px;
+        }
+        .footer-wrapper{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            max-height: 50px;
+        }
+        .best-card-logo-container {
+            background-color: #c2bcbc;
+            width: 100px;
+            max-height: 100px;
+            min-height:50px;
+            min-width: 100px;
+            max-width: 100px;
+            border-radius: 10px;
+            margin: 5px 5px 50px 5px;
+        }
+        .best-card-logo-container > *{
+            text-align: center;
+        
+        }
+        .best-card{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+
+        }
+        #best, #card{
+            text-transform: capitalize;
+            font-style: italic;
+            font-size: 25px;
+        }
+        #best{
+            color: #3f8dcc;
+            margin-right: 30px;
+
+        }
+        #card{
+            color: #ff9812;
+            margin-left: 25px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="card-container">
+        <div class="heading">
+            <h1>Credit Card</h1>
+        </div>
+        <div class="evm-container">
+            <img src="./evm.png" alt="" class="emvImg" />
+        </div>
+
+        <div class="details-wrapper">
+            <h1 id="cardNumber">1234 5678 9012 3456</h1>
+        </div>
+        <div class="validity-wrapper">
+            <h4>
+                valid <br />
+                thru
+            </h4>
+            <h2>12/31</h2>
+        </div>
+        <div class="footer-wrapper">
+
+            <div class="card-holder-wrapper">
+                <h1>cardholder</h1>
+            </div>
+
+            <div class="best-card-logo-container">
+                <div class="best-card">
+                    <h2 id="best">best</h2>
+                    <h3 id="card">card</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
